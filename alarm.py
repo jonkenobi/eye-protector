@@ -3,12 +3,13 @@ from tkinter import *
 
 '''
 An alarm to tell you to take a break after every BREAK_INTERVAL minutes
-A popup window shows at the top of your windows every time.   
+A popup window shows at the forefront of your windows every time.   
 
 How to run 
 To run, just run alarm.py in your command line 
 '''
 BREAK_INTERVAL = 20  # Minutes
+
 
 def create_tk():
     win = Tk()
@@ -22,7 +23,7 @@ def create_tk():
 
 print("Starting alarm")
 while True:
-    time.sleep(BREAK_INTERVAL*60)
+    time.sleep(BREAK_INTERVAL * 60)
     print("Take a break!")
 
     # the tk instance will be opened by the mainloop() function, but destroyed when window closed
