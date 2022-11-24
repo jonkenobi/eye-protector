@@ -9,4 +9,6 @@ No pip installs necessary
 To run, just run `alarm.py` in your command line.
 
 Every BREAK_INTERVAL minutes, this popup will show to remind you to take a break
+
+
 ![img.png](img.png)
