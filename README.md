@@ -1,9 +1,10 @@
 # eye-protector
-A simple python script to show a popup every interval
+A simple python script to show a popup every interval of time. 
+You can use it to remind you to take a break for example on your laptop. 
 
 ### Installation requirements
 Only python is needed! 
-No pip installs necessary
+No extra package installations are necessary
 
 ### How to run
 To run, just run `alarm.py` in your command line.
