@@ -13,15 +13,20 @@ BREAK_INTERVAL = 20  # Minutes
 
 def create_tk():
     win = Tk()
-    # Set the geometry of Tkinter frame
-    win.geometry("1000x500")
-    win.attributes('-topmost', 1)
-    win.attributes('-topmost', 0)
+
+    # Set the size of the Tkinter frame
+    height = win.winfo_screenheight()
+    width = win.winfo_screenwidth()
+    win.geometry("{0}x{1}+0+0".format(width, height))
+
+    win.attributes('-topmost', True)  # Put tkinter as frontmost window on the screen
+    # win.overrideredirect(True) # makes it full screen
     win.title("Take a break!")
+
     return win
 
 
-print("Starting alarm")
+print("Starting alarm for every {} minutes".format(BREAK_INTERVAL))
 while True:
     time.sleep(BREAK_INTERVAL * 60)
     print("Take a break!")
