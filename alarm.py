@@ -61,5 +61,7 @@ while True:
     countdown(BREAK_LENGTH)
 
     root.mainloop()
-
+    t = time.localtime()
+    current_time = time.strftime("%H: %M: %S", t)
+    print("Took a break at " + current_time)
     # winsound.PlaySound("sound.wav", winsound.SND_ASYNC)
