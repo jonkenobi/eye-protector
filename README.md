@@ -11,8 +11,7 @@ To run, just run `alarm.py` in your command line.
 
 Every BREAK_INTERVAL minutes, this popup will show to remind you to take a break
 
-
-![img.png](/tk_popup_img.png)
+![img.png](https://raw.githubusercontent.com/jonkenobi/eye-protector/master/tk_popup_img.jpg)
 
 ### To run the script on start of your Windows PC
 1. Press Win+R, and enter `shell:startup`. Or go to `C:\Users\{UserName}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
