@@ -28,7 +28,7 @@ def create_tk():
     win.title("Take a break!")
     seconds_unit_text = Label(win, text="secs", font=("Arial", 40, ""))
     seconds_unit_text.place(x=width / 2, y=height / 2 - 55)
-
+    win.bind("<Escape>", lambda x: win.destroy())
     return win
 
 
